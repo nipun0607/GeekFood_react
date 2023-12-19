@@ -1,0 +1,36 @@
+.header_navbar{
+display: flex;
+justify-content: space-between;
+position:fixed;
+z-index: 1;
+width:100%;
+background-color: #FFFFFF;
+
+}
+.navbar_first{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:1rem;
+    margin-left: 1rem;
+}
+.logo{
+    width:20px;
+}
+h4{
+    font-size: 1.5rem;
+}
+.navbar_second .navbar_list{
+    display: flex;
+    list-style:none ;
+    gap:2rem;
+}
+.navbar_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    gap:2rem
+}
+
+

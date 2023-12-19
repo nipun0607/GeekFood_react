@@ -4,11 +4,11 @@
 //   backgroundColor:"red",
 // }
 import './App.css';
-import Header from './Components/Header/Header.js';
+import Navbar from './Component/Navbar/Header.js';
 import Btn from './Components/Button/Button.js';
 import Hero from './Components/Hero/Hero.js';
 import Main from './Components/Main/Main.js';
-import Card from './Components/Card/Card.js';
+import Grid from './Components/Grid/Card.js';
 import Footer from './Components/Footer/Footer.js'
 
 
@@ -18,7 +18,7 @@ function App() {
       <Header/>
       <Hero/>
       <Main/>
-      <Card/>
+      <Grid/>
       <Footer/>
       
     </div>
